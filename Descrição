@@ -1,0 +1,16 @@
+# Calculadora de Frete
+
+Este é um projeto simples para calcular o frete com base no peso e nas dimensões do produto.
+
+## Tecnologias Utilizadas
+
+- HTML
+- CSS
+- JavaScript
+
+## Como Usar
+
+1. Preencha os campos de comprimento, largura, altura, peso bruto, e quantidade.
+2. Escolha o tipo de transporte (rodoviário ou aéreo).
+3. Clique em "Calcular Frete" para visualizar o resultado.
+4. Clique em "Limpar" para limpar os campos preenchidos.
