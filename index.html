@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Frete</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Calculadora de Frete</h2>
+    <form id="freteForm">
+      <div class="input-group">
+        <label for="comprimento">Comprimento (cm):</label>
+        <input type="number" id="comprimento" required>
+      </div>
+      <div class="input-group">
+        <label for="largura">Largura (cm):</label>
+        <input type="number" id="largura" required>
+      </div>
+      <div class="input-group">
+        <label for="altura">Altura (cm):</label>
+        <input type="number" id="altura" required>
+      </div>
+      <div class="input-group">
+        <label for="pesoBruto">Peso Bruto (kg):</label>
+        <input type="number" id="pesoBruto" required>
+      </div>
+      <div class="input-group">
+        <label for="quantidade">Quantidade de Volumes:</label>
+        <input type="number" id="quantidade" required>
+      </div>
+      <div class="input-group">
+        <label for="transporte">Tipo de Transporte:</label>
+        <select id="transporte" required>
+          <option value="rodoviario">Rodoviário</option>
+          <option value="aereo">Aéreo</option>
+        </select>
+      </div>
+      <div class="buttons">
+        <button type="button" class="calcular" onclick="calcularFrete()">Calcular Frete</button>
+        <button type="button" class="limpar" onclick="limparCampos()">Limpar</button>
+      </div>
+    </form>
+    <div id="resultado"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
